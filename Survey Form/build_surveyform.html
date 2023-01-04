@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <header>
+    <h1 id="title">FTI Survey</h1>
+    <p id="description">Apa Pendapat anda tentang situs Web FreeCodeCamp sejauh ini?</p>
+    </header>
+    <main>
+      <form id="survey-form">
+        <label for="name" id="name-label">Silahkan isi nama anda: </label>
+        <input id="name" type="text" required placeholder="nama kebanggan">
+
+<hr>
+        
+        <label for="email" id="email-label">Silahkan isi e-mail anda: </label>
+        <input id="email" type="email" required placeholder="emailkeren@gmail.com">
+
+<hr>
+
+        <label for="number" id="number-label">Silahkan isi umur anda: </label>
+        <input id="number" type="number" min="7" max="100" required placeholder="angka">
+
+<hr>
+
+        <label for="dropdown">Ngoding atau Nongkrong: </label>
+        <select id="dropdown">
+          <option> Ngoding </option>
+          <option> Nongkrong </option>
+        </select>
+
+<hr>
+
+        <label>Roti atau Susu: </label>
+        <input type="radio" name="radio-squad" id="roti" value="0">
+        <label for="roti">Roti</label>
+        <input type="radio" name="radio-squad" id="susu" value="1">
+        <label for="susu">Susu</label>
+
+<hr>
+
+        <label>Pilih Bahasa yang digunakan sehari-hari: </label>
+        <input type="checkbox" value="0" id="bind">
+        <label for="bind">Bahasa Indonesia</label>
+        <input type="checkbox" value="0" id="biwa">
+        <label for="biwa">Bahasa Jawa</label>
+
+<hr>
+
+        <textarea>
+          Silahkan ketikan komentar tambahan kalian di sini
+        </textarea>
+
+<hr>
+
+        <input id="submit" type="submit">
+      </form>
+    </main>
+  </body>
+</html>
